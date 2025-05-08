@@ -14,7 +14,7 @@ Det jag tyckte var mest krångligt var att förstå hur jag skulle använda Swip
 ### Fontawesome
 Jag tyckte att Fontawesome var smidigt att använda eftersom jag har använt det i HTML/JS förut. I React var det bara att installera Fonawesome och sedan importera React-komponenten för fontawesome och sedan hitta koden för den ikon man vill använda och importera den. Sedan kan man styla ikonen i css.
 
-Jag använde ett hus som ikon för att användaren ska kunna ta sig till hemsidan och en soptunna för att användaren ska kunna tömma kundkorgen. Jag tyckte att ikonerna var mycket snyggare och tog mindre plats än att skriva ut det med text. 
+Jag använde ett hus som ikon för att användaren ska kunna ta sig till startsidan och en soptunna för att användaren ska kunna tömma kundkorgen. Jag tyckte att ikonerna var mycket snyggare och tog mindre plats än att skriva ut det med text. 
 
 ### UUID
 UUID var ett smidigt sätt att ta fram ordernummer på. I ett mindre projekt som det här hade det kanske räckt att ha en math.random-funktion som slumpade fram bokstäver och siffror till ett ordernummer (som jag gjorde med sittplatser), men jag tyckte att det var bra att träna på att använda UUID. I större projekt - och där det faktiskt är viktigt att alla komponenter/objekt får ett unikt ID-nummer är UUID mycket bättre att använda för att inte riskera dubletter.
