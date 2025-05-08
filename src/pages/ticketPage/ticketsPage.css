@@ -1,0 +1,24 @@
+.tickets-page {
+    background: linear-gradient(#F56B9A 1%, #6A317C 25%, #432560 35%, #231F42 50%);
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tickets-page h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: #231F42 1px 1px;
+}
+
+.ticket-list__container {
+    height: 100vh;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

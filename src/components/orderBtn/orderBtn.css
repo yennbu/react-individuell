@@ -1,0 +1,17 @@
+.order-btn {
+    width: 60%;
+    height: 3rem;
+    border: none;
+    border-radius: 2px;
+    background-color: #37AEAB;
+    color: #ffffff;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1rem;
+    transition: background-color ease 1s;
+}
+
+.order-btn:hover {
+    background-color: #006962;
+    cursor: pointer;
+}

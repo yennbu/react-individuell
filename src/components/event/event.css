@@ -1,0 +1,59 @@
+.event-container {
+    margin-top: 1rem;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff;
+    width: 80vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.event-link {
+    text-decoration: none;
+}
+
+.event__info {
+    border-bottom: solid lightgray 2px;
+    width: 80%;
+
+    position: relative;
+}
+
+
+.event__info h2 {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px #F56B9A;
+    font-weight: 400;
+}
+
+.event__date {
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-right: 1rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event__place {
+    margin-top: 0.3rem;
+    font-style: italic;
+}
+
+.event__time {
+    margin-top: 0.6rem;
+    white-space: nowrap;
+}
+
+.event__price {
+    color: #37AEAB;
+    font-weight: 600;
+
+   position: absolute;
+   right: 0;
+}

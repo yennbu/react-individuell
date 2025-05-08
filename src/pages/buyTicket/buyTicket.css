@@ -1,0 +1,74 @@
+.buy-ticket__container {
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-ticket__heading {
+    color: #ffffff;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    width: 10rem;
+    margin-bottom: 3rem;
+    opacity: 80%;
+}
+
+.buy-ticket__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-ticket__info h3 {
+    color: #F56B9A;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+.buy-ticket__info h4 {
+    color: #37AEAB;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.buy-ticket__info p {
+    color: #ffffff;
+    font-family: "Fira Sans", sans-serif;
+    opacity: 80%;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+/*KÖPA BILJETTER BOX*/
+
+.buy-ticket__box {
+    border: solid 2px #F56B9A;
+    border-bottom: none;
+    border-radius: 3px;
+    color: #ffffff;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.buy-ticket__sum {
+ padding: 1rem;
+ font-family: "Fira Sans", sans-serif;
+ font-size: 1.7rem;
+ font-weight: 500;
+ text-shadow: 1px 1px #F56B9A;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+

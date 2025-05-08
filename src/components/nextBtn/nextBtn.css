@@ -1,0 +1,20 @@
+/* KNAPP */
+
+.start-Btn {
+    padding: 0.8rem;
+    background-color: #231F42;
+    width: 25%;
+    border: solid #F56B9A 2px;
+    color: #ffffff;
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+
+    transition: background-color ease 1s;
+}
+
+/* Lite onödigt i en mobilapp, men roligare med än utan :) */
+.start-Btn:hover {
+    background-color: #F56B9A;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.order-container {
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-info {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-info h3 {
+    color: #37AEAB;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.order-summarize {
+    color: #ffffff;
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.order-summarize__text {
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    opacity: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.order-summarize__sum {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px #F56B9A;
+}
