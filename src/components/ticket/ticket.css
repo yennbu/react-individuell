@@ -1,0 +1,105 @@
+.ticket-container {
+    padding-top: 1rem;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+
+}
+
+.ticket__heading {
+    color: #F56B9A;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+
+    padding-left: 1rem;
+}
+
+.ticket-container h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 0.7rem;
+    color: #8B8B8B;
+    margin-bottom: 0.5rem;
+}
+
+.ticket__place-container{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-top: dotted #8B8B8B 1px;
+    background-color: #F7F7F7;
+}
+
+.ticket__place-container h4 {
+    margin-top: 0.5rem;
+    font-family: "Fira Sans", sans-serif;
+    color: #313131;
+}
+
+.ticket__place-container p {
+    margin-top: 0.3rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    color: #525252;
+    margin-bottom: 1.5rem;
+}
+
+.ticket__time-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+}
+
+.ticket__time-container p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    color: #313131;
+}
+
+.ticket__time-element {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border: dotted #8B8B8B 1px;
+    border-left: none;
+    width: 40%;
+}
+
+#no-border-right {
+    border-right: none;
+}
+
+.ticket__info-container {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-bottom: dotted #8B8B8B 1px;
+    background-color: #E8E8E8;
+}
+
+.ticket__info-container p {
+    font-family: "Fira Sans", sans-serif;
+    color: #525252;
+    margin-bottom: 1rem;
+}
+
+.ticket__ordernumber-container {
+    padding: 1rem;
+    padding-top: 1.5rem;
+    background-color: #E0E0E0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket__ordernumber-container p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.3rem;
+    color: #8B8B8B;
+    padding-top: 0.5rem;
+}
+
+.swiper {
+    width: 100%;
+  }

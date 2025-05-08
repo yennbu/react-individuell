@@ -1,0 +1,38 @@
+.ticket-counter__container {
+    display: flex;
+}
+
+.ticket-sum {
+    border: solid 2px #F56B9A;
+    height: 3rem;
+    width: 60%;
+    font-family: "fira sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.decrease-btn, 
+.increase-btn {
+    width: 20%;
+    height: 3rem;
+    background-color: #231F42;
+    color: #ffffff;
+    border: solid 2px #F56B9A;
+    border-left: none;
+    border-right: none;
+    font-size: 2rem;
+    font-weight: 300;
+
+    transition: background-color ease 1s;
+}
+
+.increase-btn:hover,
+.decrease-btn:hover {
+    background-color: #F56B9A;
+    cursor: pointer;
+}
